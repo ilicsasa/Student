@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.SqlClient;
 
-namespace Student.Model
+namespace Student
 {
 
     public class Student
@@ -12,7 +13,7 @@ namespace Student.Model
         public int id { set; get; }
         public string ime { set; get; }
         public string prezime { set; get; }
-        public string prosek { set; get; }
+        public double prosek { set; get; }
         public string indeks { set; get; }
 
 
