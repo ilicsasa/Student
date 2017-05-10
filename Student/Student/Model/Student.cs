@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Student.Model
+namespace Student
 {
 
     public class Student
@@ -12,12 +12,12 @@ namespace Student.Model
         public int id { set; get; }
         public string ime { set; get; }
         public string prezime { set; get; }
-        public string prosek { set; get; }
+        public double prosek { set; get; }
         public string indeks { set; get; }
 
 
         public Student(int id, string indeks, string ime, string prezime,
-                string prosek)
+                double prosek)
         {
             this.id = id;
             this.indeks = indeks;
