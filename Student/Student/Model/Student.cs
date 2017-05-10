@@ -18,7 +18,7 @@ namespace Student
 
 
         public Student(int id, string indeks, string ime, string prezime,
-                string prosek)
+                double prosek)
         {
             this.id = id;
             this.indeks = indeks;
